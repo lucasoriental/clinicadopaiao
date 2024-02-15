@@ -1,0 +1,25 @@
+.imageDoServico {
+  width: 286px;
+  height: 335px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.todosServicos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 950px;
+}
+
+.nomeDoServico {
+  font-size: 22px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0px 0px 20px 0px;
+}
+
+#background_nome_servico {
+  background-color: rgb(190, 190, 190);
+  background-size: 335px 40px;
+}

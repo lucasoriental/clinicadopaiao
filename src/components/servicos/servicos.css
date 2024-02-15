@@ -1,0 +1,16 @@
+#container-servicos{
+  width: 940px;
+  margin: 0 auto;
+}
+
+#servicosTitle{
+  margin-bottom: 20px;
+  color:rgb(0, 99, 160);
+  font-size: 65px;
+  font-weight: bold;
+}
+
+#container-cada-servico{
+  display: flex;
+  justify-content: center;
+}
