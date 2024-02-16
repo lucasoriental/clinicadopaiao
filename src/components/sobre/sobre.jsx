@@ -3,7 +3,7 @@ import "./sobre.css";
 
 function MySobre() {
   return (
-    <main id="container-sobre">
+    <div className="container">
       <p id="sobre_title">Sobre Nós</p>
       <div className="sobre_paragraph">
         <p>
@@ -18,15 +18,19 @@ function MySobre() {
           Clínica do Paião pauta-se pelos seguintes Valores:
         </p>
         <p>
-          • <strong>Qualidade</strong> | Disponibilizar serviços de qualidade diferenciada e
-          reconhecida;
+          • <strong>Qualidade</strong> | Disponibilizar serviços de qualidade
+          diferenciada e reconhecida;
         </p>
         <p>
-          • <strong>Variedade</strong> | Congregar num só espaço o maior número de serviços
-          possível possível;
+          • <strong>Variedade</strong> | Congregar num só espaço o maior número
+          de serviços possível possível;
         </p>
-        <p>• <strong>Valor</strong> | A melhor qualidade ao melhor preço;</p>
-        <p>• <strong>Serviço</strong> | Rapidez, eficiência e segurança.</p>
+        <p>
+          • <strong>Valor</strong> | A melhor qualidade ao melhor preço;
+        </p>
+        <p>
+          • <strong>Serviço</strong> | Rapidez, eficiência e segurança.
+        </p>
       </div>
       <div>
         <p id="sobre_section2">As nossas instalações</p>
@@ -45,7 +49,7 @@ function MySobre() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
 

@@ -6,47 +6,52 @@ function CadaServico() {
     {
       image: "./src/img/servicos/clinicaGeral.webp",
       nomeDoServico: "Clínica Geral",
+      path: "#",
     },
     {
       image: "./src/img/servicos/Cardiologia.webp",
       nomeDoServico: "Cardiologia",
+      path: "#",
     },
     {
       image: "./src/img/servicos/dermatologia.webp",
       nomeDoServico: "Dermatologia",
+      path: "#",
     },
     {
       image: "./src/img/servicos/dermatologia.webp",
       nomeDoServico: "Dermatologia",
+      path: "#",
     },
     {
       image: "./src/img/servicos/dermatologia.webp",
       nomeDoServico: "Dermatologia",
-    },
-    {
-      image: "./src/img/servicos/dermatologia.webp",
-      nomeDoServico: "Dermatologia",
+      path: "#",
     },
   ];
   return (
-    <div className="todosServicos">
-      {servicos.map((servico) => {
-        return (
-          <div key={servico.nomeDoServico}>
-            <div>
-              <img
-                className="imageDoServico"
-                src={servico.image}
-                alt={servico.nomeDoServico}
-              />
+    <body>
+      <div className="todosServicos">
+        {servicos.map((servico) => {
+          return (
+            <div key={servico.nomeDoServico} className="cadaServico">
+              <a href="#">
+                <div>
+                  <img
+                    className="imageDoServico"
+                    src={servico.image}
+                    alt={servico.nomeDoServico}
+                  />
+                </div>
+                <div id="background_nome_servico">
+                  <p className="nomeDoServico">{servico.nomeDoServico}</p>
+                </div>
+              </a>
             </div>
-            <div id="background_nome_servico">
-              <p className="nomeDoServico">{servico.nomeDoServico}</p>
-            </div>
-          </div>
-        );
-      })}
-    </div>
+          );
+        })}
+      </div>
+    </body>
   );
 }
 

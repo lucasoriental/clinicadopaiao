@@ -1,4 +1,4 @@
-#container-servicos {
+#container {
   width: 940px;
   margin: 0 auto;
 }
@@ -10,7 +10,7 @@
   font-weight: bold;
 }
 
-#container-cada-servico {
+#container-cada-funcionario {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }

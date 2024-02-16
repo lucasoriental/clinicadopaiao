@@ -1,10 +1,9 @@
 import React from 'react'
+import './App.css'
 import MyFooter from './components/common/footer/footer.jsx'
 import MyHeader from './components/common/header/header.jsx'
-import ClinicaDoPaiao from './components/clinicaDoPaiao/clinicadopaiao.jsx'
-import MySobre from './components/sobre/sobre.jsx'
+import NossaEquipa from './components/nossaEquipa/nossaEquipa.jsx'
 import MyServicos from './components/servicos/servicos.jsx'
-import './App.css'
 
 function App() {
   return (
@@ -12,7 +11,8 @@ function App() {
       <MyHeader></MyHeader>
       {/* <ClinicaDoPaiao></ClinicaDoPaiao> */}
       {/* <MySobre></MySobre> */}
-      <MyServicos></MyServicos>
+      {/* <MyServicos></MyServicos> */}
+      {/* <NossaEquipa></NossaEquipa> */}
       <MyFooter></MyFooter>
     </div>
   )

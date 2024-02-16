@@ -1,29 +1,29 @@
-.imageDoServico {
+.fotoDoFuncionario {
   width: 286px;
   height: 335px;
   object-fit: cover;
   object-position: 50% 50%;
 }
 
-.todosServicos {
+.todosFuncionarios {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  max-width: 1230px;
+  max-width: 900px;
 }
 
-.nomeDoServico {
+.nomeDoFuncionario {
   font-size: 22px;
   font-weight: 400;
   color: #444444;
   margin: 0px 0px 20px 0px;
 }
 
-#background_nome_servico {
+#background_nome_funcionario {
   background-color: rgb(190, 190, 190);
   background-size: 335px 40px;
 }
 
-.cadaServico {
+.cadaFuncionario {
   margin: 0px 10px;
 }

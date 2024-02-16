@@ -1,16 +1,16 @@
-#container-sobre{
+.container {
   width: 941px;
   margin: 20px auto;
 }
 
-#sobre_title{
+#sobre_title {
   margin-bottom: 20px;
-  color:rgb(0, 99, 160);
+  color: rgb(0, 99, 160);
   font-size: 65px;
   font-weight: bold;
 }
 
-.sobre_paragraph{
+.sobre_paragraph {
   font-size: 20px;
   line-height: 1.5em;
   margin: 0px 0px 30px 0px;
@@ -18,17 +18,17 @@
   color: #444444;
 }
 
-.sobre_paragraph li{
+.sobre_paragraph li {
   list-style-type: none;
 }
 
-#sobre_section2{
+#sobre_section2 {
   font-weight: bold;
   font-size: 25px;
   color: #444444;
 }
 
-#sobre_images{
+#sobre_images {
   display: flex;
   justify-content: center;
   margin: 20px 0px;

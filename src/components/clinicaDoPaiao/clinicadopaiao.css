@@ -1,56 +1,58 @@
-.infoClinicaDoPaiao{
-    font-weight: normal;
-    font-size: 20px;
-    color: #444444;
+.infoClinicaDoPaiao {
+  font-weight: normal;
+  font-size: 20px;
+  color: #444444;
 }
 
 #background {
-    background-image: 
-        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-        url('src/img/backgroundImg.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    width: 100%;
-    height: 100vh; 
-  }
-
-#containerDeInformacoes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px; /* Adapte conforme necessário para ajustar a posição dos elementos */
-    z-index: 1; /* Garante que os outros elementos estejam na frente do fundo */
-  }
-
-.horario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("src/img/backgroundImg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
 }
 
-#botaoAgendeJa{
-    width: 205px;
-    height: 41px;
-    margin: 40px 0px;
-    border: none;
-    background-color: #FEFEFF;
+#containerDeInformacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px; /* Adapte conforme necessário para ajustar a posição dos elementos */
+  z-index: 1; /* Garante que os outros elementos estejam na frente do fundo */
 }
 
-#sloganClinicaDoPaiao{
-    letter-spacing: 0.15em;
-    text-align: center;
-    width: 489px;
-    font-size: 23px;
-    color: #444444;
-    font-weight: bold;
+.horario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }
 
-#clinicaDoPaiaoTitle{
-    font-size: 65px;
-    color: #1e718f;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px 0px 10px 0px;
+#botaoAgendeJa {
+  width: 205px;
+  height: 41px;
+  margin: 40px 0px;
+  border: none;
+  background-color: #fefeff;
+}
+
+#sloganClinicaDoPaiao {
+  letter-spacing: 0.15em;
+  text-align: center;
+  width: 489px;
+  font-size: 23px;
+  color: #444444;
+  font-weight: bold;
+}
+
+#clinicaDoPaiaoTitle {
+  font-size: 65px;
+  color: #1e718f;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0px 10px 0px;
 }
