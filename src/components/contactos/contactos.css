@@ -1,0 +1,28 @@
+#geral{
+    width: 940px;
+    margin: 20px auto;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.titulo{
+    font-size: large;
+    font-weight: bold;
+    color: #444444;
+    letter-spacing: 0.05em;
+    font-size: 15pt;
+}
+
+#googleMaps{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.redesSociais{
+    /* margin: 5px 0 0 10px; */
+}
