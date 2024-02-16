@@ -14,7 +14,7 @@ function App() {
       {/* <MySobre></MySobre> */}
       {/* <MyServicos></MyServicos> */}
       {/* <NossaEquipa></NossaEquipa> */}
-      {/* <MyContactos></MyContactos> */}
+      <MyContactos></MyContactos>
       <MyFooter></MyFooter>
     </div>
   )
