@@ -24,7 +24,7 @@
   font-size: 80px;
   letter-spacing: normal;
   line-height: 1.2em;
-  color: rgb(30, 113, 143);
+  color: #1e718f;
   text-align: center;
   font-weight: bold;
 }
@@ -70,7 +70,7 @@
 
 .titulos-geral {
   margin-bottom: 20px;
-  color: rgb(0, 99, 160);
+  color: #1e718f;
   font-size: 65px;
   font-weight: bold;
   letter-spacing: normal;
@@ -128,7 +128,7 @@ são responsáveis pelo estilo e centralização dos mesmos de forma correta */
 .nome-galeria {
   font-size: 20px;
   font-weight: bold;
-  color: #1E718F;
+  color: #1e718f;
   margin: 0px 0px 20px 0px;
 }
 
@@ -136,7 +136,7 @@ são responsáveis pelo estilo e centralização dos mesmos de forma correta */
   word-wrap: break-word;
   font-size: 19px;
   font-weight: bold;
-  color: #1E718F;
+  color: #1e718f;
   margin: 0;
 }
 

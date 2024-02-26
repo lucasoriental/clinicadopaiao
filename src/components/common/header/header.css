@@ -6,13 +6,11 @@ header {
   align-items: center;
   background-color: #1e718f;
   height: 90px;
-  /* margin-left: 2%;
-    width: 95%; */
 }
 
 #logo {
   width: 196px;
-  height: 90px;
+  height: 95px;
 }
 
 nav {
@@ -21,26 +19,28 @@ nav {
 
 #links {
   display: flex;
-  list-style-type: none;
-}
-
-#links li a {
+  justify-content: center;
   align-items: center;
-  padding: 0px 15px;
-  display: flex;
-  max-width: 100%;
+  list-style-type: none;
   height: 90px;
   font-size: 15pt;
 }
 
-#links li :hover {
+ul li :hover {
   color: rgb(170, 170, 170);
   transition: 0.5s;
 }
 
-a {
+.inativo {
+  padding: 0px 10px;
   text-decoration: none;
   color: white;
+}
+
+.ativo {
+  padding: 0px 10px;
+  text-decoration: none;
+  color: rgb(170, 170, 170);
 }
 
 /* Header - Fim */

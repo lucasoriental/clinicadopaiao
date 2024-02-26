@@ -1,33 +1,39 @@
 import React from "react";
+import { Link, Outlet, useLocation } from "react-router-dom";
+import logo from "../../../assets/img/logo.webp";
 import "./header.css";
-import logo from "../../../assets/img/logo.webp"
 
 function Header() {
+  const location = useLocation();
+  console.log(location)
   return (
-    <header>
-      <img src={logo} alt="Logo Do Paião" id="logo" />
-      <nav>
-        <ul id="links">
+    <>
+      <header>
+        <Link to="/">
+          <img src={logo} alt="Logo Do Paião" id="logo" />
+        </Link>
+        <nav>
+          <ul id="links">
           <li>
-            <a href="#clinicaDoPaiao" style={{ color: "DarkGray" }}>
-              Clínica do Paião
-            </a>
-          </li>
-          <li>
-            <a href="#sobre">Sobre</a>
-          </li>
-          <li>
-            <a href="#servicos">Serviços</a>
-          </li>
-          <li>
-            <a href="#nossaEquipa">Nossa Equipa</a>
-          </li>
-          <li>
-            <a href="#contactos">Contactos</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+              <Link className={location.pathname === "/" ? "ativo" : "inativo"} to="/">Clinica do Paiao</Link>
+            </li>
+            <li>
+              <Link className={location.pathname === "/sobre" ? "ativo" : "inativo"} to="/sobre">Sobre</Link>
+            </li>
+            <li>
+              <Link className={location.pathname === "/servicos" ? "ativo" : "inativo"} to="/servicos">Serviços</Link>
+            </li>
+            <li>
+              <Link className={location.pathname === "/nossaEquipa" ? "ativo" : "inativo"} to="/nossaEquipa">Nossa Equipa</Link>
+            </li>
+            <li>
+              <Link className={location.pathname === "/contacto" ? "ativo" : "inativo"} to="/contacto">Contacto</Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <Outlet />
+    </>
   );
 }
 
