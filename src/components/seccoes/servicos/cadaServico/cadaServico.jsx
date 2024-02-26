@@ -1,13 +1,13 @@
 import React from "react";
-import clinicaGeral from "../../../../assets/img/servicos/clinicaGeral.webp"
-import cardiologia from "../../../../assets/img/servicos/cardiologia.webp"
-import dermatologia from "../../../../assets/img/servicos/dermatologia.webp"
-import ortopedia from "../../../../assets/img/servicos/ortopedia.webp"
-import otorrinolaringologia from "../../../../assets/img/servicos/otorrinolaringologia.webp"
-import psicologia from "../../../../assets/img/servicos/psicologia.webp"
-import fisioterapia from "../../../../assets/img/servicos/fisioterapia.webp"
-import medicinaInterna from "../../../../assets/img/servicos/medicinaInterna.webp"
-import reabilitacaoAuditiva from "../../../../assets/img/servicos/reabilitacaoAuditiva.webp"
+import cardiologia from "../../../../assets/img/servicos/cardiologia.webp";
+import clinicaGeral from "../../../../assets/img/servicos/clinicaGeral.webp";
+import dermatologia from "../../../../assets/img/servicos/dermatologia.webp";
+import fisioterapia from "../../../../assets/img/servicos/fisioterapia.webp";
+import medicinaInterna from "../../../../assets/img/servicos/medicinaInterna.webp";
+import ortopedia from "../../../../assets/img/servicos/ortopedia.webp";
+import otorrinolaringologia from "../../../../assets/img/servicos/otorrinolaringologia.webp";
+import psicologia from "../../../../assets/img/servicos/psicologia.webp";
+import reabilitacaoAuditiva from "../../../../assets/img/servicos/reabilitacaoAuditiva.webp";
 
 function CadaServico() {
   let servicos = [
