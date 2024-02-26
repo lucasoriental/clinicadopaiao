@@ -26,8 +26,7 @@ function ClinicaDoPaiao() {
             <Link
               style={{
                 color: "#444444",
-                fontSize: "15px",
-                textDecoration: "none",
+                fontSize: "15px"
               }}
               to="/contacto"
             >
