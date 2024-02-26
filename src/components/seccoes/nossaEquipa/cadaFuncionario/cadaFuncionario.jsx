@@ -1,5 +1,5 @@
 import React from "react";
-import fotografia from "../../../../assets/img/equipa/noPic.webp"
+import fotografia from "../../../../assets/img/equipa/noPic.webp";
 
 function CadaFuncionario() {
   let funcionarios = [
@@ -43,25 +43,25 @@ function CadaFuncionario() {
       fotografia: fotografia,
       nome: "Dra. Bárbara Gomes",
       especializacao: "• Fisioterapia",
-      id: 6,
+      id: 7,
     },
     {
       fotografia: fotografia,
       nome: "Dra. Adriana Sousa",
       especializacao: "• Fisioterapia",
-      id: 7,
+      id: 8,
     },
     {
       fotografia: fotografia,
       nome: "Dr. Sergey Belykh",
       especializacao: "• Medicina Interna",
-      id: 8,
+      id: 9,
     },
     {
       fotografia: fotografia,
       nome: "Dr. Nuno Jesus",
       especializacao: "• Reabilitação Auditiva",
-      id: 9,
+      id: 10,
     },
   ];
   return (
