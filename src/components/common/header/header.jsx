@@ -5,7 +5,6 @@ import "./header.css";
 
 function Header() {
   const location = useLocation();
-  console.log(location);
   return (
     <>
       <header>
