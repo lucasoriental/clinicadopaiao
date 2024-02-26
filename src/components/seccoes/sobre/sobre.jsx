@@ -1,7 +1,7 @@
 import React from "react";
 import sobreImg1 from "../../../assets/img/sobreImg1.webp";
 import sobreImg2 from "../../../assets/img/sobreImg2.webp";
-import Footer from '../../common/footer/footer';
+import Footer from "../../common/footer/footer";
 
 function Sobre() {
   return (

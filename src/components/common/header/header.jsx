@@ -5,7 +5,7 @@ import "./header.css";
 
 function Header() {
   const location = useLocation();
-  console.log(location)
+  console.log(location);
   return (
     <>
       <header>
@@ -14,20 +14,51 @@ function Header() {
         </Link>
         <nav>
           <ul id="links">
-          <li>
-              <Link className={location.pathname === "/" ? "ativo" : "inativo"} to="/">Clinica do Paiao</Link>
+            <li>
+              <Link
+                className={location.pathname === "/" ? "ativo" : "inativo"}
+                to="/"
+              >
+                Clinica do Paiao
+              </Link>
             </li>
             <li>
-              <Link className={location.pathname === "/sobre" ? "ativo" : "inativo"} to="/sobre">Sobre</Link>
+              <Link
+                className={location.pathname === "/sobre" ? "ativo" : "inativo"}
+                to="/sobre"
+              >
+                Sobre
+              </Link>
             </li>
             <li>
-              <Link className={location.pathname === "/servicos" ? "ativo" : "inativo"} to="/servicos">Serviços</Link>
+              <Link
+                className={
+                  location.pathname === "/servicos" ? "ativo" : "inativo"
+                }
+                to="/servicos"
+              >
+                Serviços
+              </Link>
             </li>
             <li>
-              <Link className={location.pathname === "/nossaEquipa" ? "ativo" : "inativo"} to="/nossaEquipa">Nossa Equipa</Link>
+              <Link
+                className={
+                  location.pathname === "/nossaEquipa" ? "ativo" : "inativo"
+                }
+                to="/nossaEquipa"
+              >
+                Nossa Equipa
+              </Link>
             </li>
             <li>
-              <Link className={location.pathname === "/contacto" ? "ativo" : "inativo"} to="/contacto">Contacto</Link>
+              <Link
+                className={
+                  location.pathname === "/contacto" ? "ativo" : "inativo"
+                }
+                to="/contacto"
+              >
+                Contacto
+              </Link>
             </li>
           </ul>
         </nav>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import background from "../../../assets/img/backgroundImg.webp";
-import Footer from '../../common/footer/footer';
+import Footer from "../../common/footer/footer";
 
 function ClinicaDoPaiao() {
   return (
@@ -23,7 +23,16 @@ function ClinicaDoPaiao() {
             <p className="infoClinicaDoPaiao">8h00 – 20h00</p>
           </div>
           <button id="botaoAgendeJa">
-            <Link style={{ color: "#444444", fontSize: "15px", textDecoration: "none" }} to="/contacto">Agende já a sua consulta!</Link>
+            <Link
+              style={{
+                color: "#444444",
+                fontSize: "15px",
+                textDecoration: "none",
+              }}
+              to="/contacto"
+            >
+              Agende já a sua consulta!
+            </Link>
           </button>
         </div>
       </div>
