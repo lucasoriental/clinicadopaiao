@@ -1,4 +1,4 @@
-import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
+import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
 import React from "react";
 import SVGFacebook from "../../../assets/icons/SVGFacebook";
 import SVGInstagram from "../../../assets/icons/SVGInstagram";
