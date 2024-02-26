@@ -18,7 +18,7 @@ function Header() {
                 className={location.pathname === "/" ? "ativo" : "inativo"}
                 to="/"
               >
-                Clinica do Paiao
+                Clínica do Paião
               </Link>
             </li>
             <li>
@@ -56,7 +56,7 @@ function Header() {
                 }
                 to="/contacto"
               >
-                Contacto
+                Contactos
               </Link>
             </li>
           </ul>
