@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../common/footer/footer";
 import CadaFuncionario from "./cadaFuncionario/cadaFuncionario";
 
 function NossaEquipa() {
@@ -13,7 +12,6 @@ function NossaEquipa() {
           <CadaFuncionario></CadaFuncionario>
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 }

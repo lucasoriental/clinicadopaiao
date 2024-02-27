@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import logo from "../../../assets/img/logo.webp";
+import Footer from "../footer/footer";
 import "./header.css";
 
 function Header() {
@@ -63,6 +64,7 @@ function Header() {
         </nav>
       </header>
       <Outlet />
+      <Footer />
     </>
   );
 }

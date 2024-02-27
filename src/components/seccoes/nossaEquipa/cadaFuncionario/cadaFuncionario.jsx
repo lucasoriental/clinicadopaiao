@@ -1,7 +1,7 @@
 import React from "react";
-import fotografia from "../../../../assets/img/equipa/noPic.webp";
 import adrianasousa from "../../../../assets/img/equipa/adriana_sousa.jpg";
 import barbaragomes from "../../../../assets/img/equipa/barbara_gomes.jpg";
+import fotografia from "../../../../assets/img/equipa/noPic.webp";
 import rutematos from "../../../../assets/img/equipa/rute_matos.jpg";
 
 function CadaFuncionario() {

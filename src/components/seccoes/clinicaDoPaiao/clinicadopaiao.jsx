@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import background from "../../../assets/img/backgroundImg.webp";
-import Footer from "../../common/footer/footer";
 
 function ClinicaDoPaiao() {
   return (
@@ -35,7 +34,6 @@ function ClinicaDoPaiao() {
           </button>
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 }

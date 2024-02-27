@@ -2,7 +2,6 @@ import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
 import React from "react";
 import SVGFacebook from "../../../assets/icons/SVGFacebook";
 import SVGInstagram from "../../../assets/icons/SVGInstagram";
-import Footer from '../../common/footer/footer';
 
 function Contactos() {
   const { isLoaded } = useJsApiLoader({
@@ -75,7 +74,6 @@ function Contactos() {
           )}
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 }
