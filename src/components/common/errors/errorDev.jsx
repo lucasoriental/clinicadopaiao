@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 import ServicoIndisponivel from "../../../assets/img/serviçoindisponivel.png";
 
 const errorDev = () => {
+  const handleClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
   return (
     <div className="container-geral" style={{ marginBottom: "90px", marginTop: "30px" }}>
       <div style={{ textAlign: "center" }}>
@@ -36,7 +42,7 @@ const errorDev = () => {
         <p className="errorText">
           Adicionalmente, convidamo-lo(a) a explorar os outros serviços que
           disponibilizamos. Para uma visão global de todos os serviços
-          disponíveis, <Link to="/servicos" style={{textDecoration: "underline", color: "blue", fontWeight: "bold"}}>clique aqui</Link>.
+          disponíveis, <Link to="/servicos" onClick={handleClick} style={{textDecoration: "underline", color: "blue", fontWeight: "bold"}}>clique aqui</Link>.
         </p>
         <p className="errorText">
           Agradecemos a sua compreensão e paciência durante este processo de
