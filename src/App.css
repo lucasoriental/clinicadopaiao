@@ -208,9 +208,14 @@ são responsáveis pelo estilo e centralização dos mesmos de forma correta */
 /* ErrorDev text  */
 
 .errorText {
-  font-size: 18px;
-  color: red;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 20px;
+  color: #444444;
+  text-align: justify;
+  font-weight: normal;
+  margin: 20px 0px;
+}
+
+.mensagem-de-erro-paragrafo {
+  max-width: 700px;
+  margin: 0 auto;
 }
