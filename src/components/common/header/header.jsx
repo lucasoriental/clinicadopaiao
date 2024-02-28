@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import logo from "../../../assets/img/logo.webp";
+import Footer from "../footer/footer";
 import "./header.css";
 
 function Header() {
@@ -18,7 +19,7 @@ function Header() {
                 className={location.pathname === "/" ? "ativo" : "inativo"}
                 to="/"
               >
-                Clinica do Paiao
+                Clínica do Paião
               </Link>
             </li>
             <li>
@@ -56,13 +57,14 @@ function Header() {
                 }
                 to="/contacto"
               >
-                Contacto
+                Contactos
               </Link>
             </li>
           </ul>
         </nav>
       </header>
       <Outlet />
+      <Footer />
     </>
   );
 }

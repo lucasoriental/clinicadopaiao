@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import background from "../../../assets/img/backgroundImg.webp";
-import Footer from "../../common/footer/footer";
 
 function ClinicaDoPaiao() {
   return (
@@ -26,7 +25,7 @@ function ClinicaDoPaiao() {
             <Link
               style={{
                 color: "#444444",
-                fontSize: "15px"
+                fontSize: "15px",
               }}
               to="/contacto"
             >
@@ -35,7 +34,6 @@ function ClinicaDoPaiao() {
           </button>
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 }

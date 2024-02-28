@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import cardiologia from "../../../../assets/img/servicos/cardiologia.webp";
 import clinicaGeral from "../../../../assets/img/servicos/clinicaGeral.webp";
 import dermatologia from "../../../../assets/img/servicos/dermatologia.webp";
@@ -14,47 +15,47 @@ function CadaServico() {
     {
       image: clinicaGeral,
       nomeDoServico: "Clínica Geral",
-      path: "#",
+      path: "/clinicaGeral",
     },
     {
       image: cardiologia,
       nomeDoServico: "Cardiologia",
-      path: "#",
+      path: "*",
     },
     {
       image: dermatologia,
       nomeDoServico: "Dermatologia",
-      path: "#",
+      path: "*",
     },
     {
       image: ortopedia,
       nomeDoServico: "Ortopedia",
-      path: "#",
+      path: "*",
     },
     {
       image: otorrinolaringologia,
       nomeDoServico: "Otorrinolaringologia",
-      path: "#",
+      path: "*",
     },
     {
       image: psicologia,
       nomeDoServico: "Psicologia",
-      path: "#",
+      path: "*",
     },
     {
       image: fisioterapia,
       nomeDoServico: "Fisioterapia",
-      path: "#",
+      path: "*",
     },
     {
       image: medicinaInterna,
       nomeDoServico: "Medicina Interna",
-      path: "#",
+      path: "*",
     },
     {
       image: reabilitacaoAuditiva,
       nomeDoServico: "Reabilitação Auditiva",
-      path: "#",
+      path: "*",
     },
   ];
   return (
@@ -62,7 +63,7 @@ function CadaServico() {
       {servicos.map((servico) => {
         return (
           <div key={servico.nomeDoServico} className="cada-item-galeria">
-            <a href={servico.path}>
+            <Link to={servico.path}>
               <div>
                 <img
                   className="imagens-galeria"
@@ -73,7 +74,7 @@ function CadaServico() {
               <div className="background-nome-galeria">
                 <p className="nome-galeria">{servico.nomeDoServico}</p>
               </div>
-            </a>
+            </Link>
           </div>
         );
       })}

@@ -1,5 +1,8 @@
 import React from "react";
+import adrianasousa from "../../../../assets/img/equipa/adriana_sousa.jpg";
+import barbaragomes from "../../../../assets/img/equipa/barbara_gomes.jpg";
 import fotografia from "../../../../assets/img/equipa/noPic.webp";
+import rutematos from "../../../../assets/img/equipa/rute_matos.jpg";
 
 function CadaFuncionario() {
   let funcionarios = [
@@ -34,19 +37,19 @@ function CadaFuncionario() {
       id: 5,
     },
     {
-      fotografia: fotografia,
+      fotografia: rutematos,
       nome: "Dra. Rute Matos",
       especializacao: "• Psicologia",
       id: 6,
     },
     {
-      fotografia: fotografia,
+      fotografia: barbaragomes,
       nome: "Dra. Bárbara Gomes",
       especializacao: "• Fisioterapia",
       id: 7,
     },
     {
-      fotografia: fotografia,
+      fotografia: adrianasousa,
       nome: "Dra. Adriana Sousa",
       especializacao: "• Fisioterapia",
       id: 8,

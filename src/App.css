@@ -195,3 +195,27 @@ são responsáveis pelo estilo e centralização dos mesmos de forma correta */
   justify-content: center;
   margin-bottom: 100px;
 }
+
+/* Serviços */
+
+.titulo-servico {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #444444;
+}
+
+/* ErrorDev text  */
+
+.errorText {
+  font-size: 20px;
+  color: #444444;
+  text-align: justify;
+  font-weight: normal;
+  margin: 20px 0px;
+}
+
+.mensagem-de-erro-paragrafo {
+  max-width: 700px;
+  margin: 0 auto;
+}
