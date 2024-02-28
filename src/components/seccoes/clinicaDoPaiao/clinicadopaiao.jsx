@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 import background from "../../../assets/img/backgroundImg.webp";
 
 function ClinicaDoPaiao() {
+  const handleClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
   return (
     <div>
       <div
@@ -22,7 +28,7 @@ function ClinicaDoPaiao() {
             <p className="infoClinicaDoPaiao">8h00 – 20h00</p>
           </div>
           <button id="botaoAgendeJa">
-            <Link
+            <Link onClick={handleClick}
               style={{
                 color: "#444444",
                 fontSize: "15px",

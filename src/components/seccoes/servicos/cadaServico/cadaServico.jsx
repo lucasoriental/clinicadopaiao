@@ -11,6 +11,12 @@ import psicologia from "../../../../assets/img/servicos/psicologia.webp";
 import reabilitacaoAuditiva from "../../../../assets/img/servicos/reabilitacaoAuditiva.webp";
 
 function CadaServico() {
+  const handleClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
   let servicos = [
     {
       image: clinicaGeral,
@@ -63,7 +69,7 @@ function CadaServico() {
       {servicos.map((servico) => {
         return (
           <div key={servico.nomeDoServico} className="cada-item-galeria">
-            <Link to={servico.path}>
+            <Link to={servico.path} onClick={handleClick}>
               <div>
                 <img
                   className="imagens-galeria"
