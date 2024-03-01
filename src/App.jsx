@@ -9,6 +9,8 @@ import NossaEquipa from "./components/seccoes/nossaEquipa/nossaEquipa.jsx";
 import ClinicaGeral from "./components/seccoes/servicos/cadaServico/clinicaGeral.jsx";
 import Servicos from "./components/seccoes/servicos/servicos.jsx";
 import Sobre from "./components/seccoes/sobre/sobre.jsx";
+import Psicologia from "./components/seccoes/servicos/cadaServico/psicologia.jsx"
+import Fisioterapia from "./components/seccoes/servicos/cadaServico/fisioterapia.jsx";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           assim como está sendo feito no <ClinicaGeral> */}
           <Route path="*" element={<ErrorDev />} />
           <Route path="clinicaGeral" element={<ClinicaGeral />} />
+          <Route path="psicologia" element={<Psicologia />} />
+          <Route path="fisioterapia" element={<Fisioterapia />} />
         </Route>
       </Routes>
     </BrowserRouter>

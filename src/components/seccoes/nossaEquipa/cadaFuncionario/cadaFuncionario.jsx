@@ -33,7 +33,7 @@ function CadaFuncionario() {
     {
       fotografia: fotografia,
       nome: "Dr. Afonso Castro",
-      especializacao: "• Otorrinolaringoogia",
+      especializacao: "• Otorrinolaringologia",
       id: 5,
     },
     {

@@ -10,7 +10,7 @@ function Servicos() {
           <p className="paragrafos-geral">
             A Clínica do Paião disponibiliza atualmente diferentes serviços de
             medicina e saúde. Futuramente, perspectiva-se a disponibilização de
-            mais de serviços de saúde e exames complementares de diagnóstico.
+            mais serviços de saúde e exames complementares de diagnóstico.
           </p>
         </div>
         <div className="container-galeria">
