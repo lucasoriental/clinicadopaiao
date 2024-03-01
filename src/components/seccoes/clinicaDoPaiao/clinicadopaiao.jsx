@@ -6,7 +6,7 @@ function ClinicaDoPaiao() {
   const handleClick = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   };
   return (
@@ -28,7 +28,8 @@ function ClinicaDoPaiao() {
             <p className="infoClinicaDoPaiao">8h00 – 20h00</p>
           </div>
           <button id="botaoAgendeJa">
-            <Link onClick={handleClick}
+            <Link
+              onClick={handleClick}
               style={{
                 color: "#444444",
                 fontSize: "15px",

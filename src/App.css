@@ -59,13 +59,19 @@
   margin: 40px 0px;
   border: none;
   background-color: #ffffff;
+  transition: filter 0.7s ease;
+}
+
+#botaoAgendeJa:hover {
+  filter: brightness(80%);
 }
 
 /* \/ SOBRE AQUI \/ */
 
 .container-geral {
   width: 80%;
-  max-width: 900px;
+  max-width: 1000px;
+  min-width: 900px;
   margin: 90px auto 0px;
 }
 
@@ -116,6 +122,11 @@ são responsáveis pelo estilo e centralização dos mesmos de forma correta */
   object-position: 50% 50%;
   border: solid #444444 0.01rem;
   box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 10%);
+  transition: filter 0.7s ease;
+}
+
+.imagens-galeria:hover {
+  filter: brightness(75%)
 }
 
 .container-galeria-items {
@@ -202,7 +213,7 @@ são responsáveis pelo estilo e centralização dos mesmos de forma correta */
   font-size: 45px;
   margin-bottom: 20px;
   font-weight: bold;
-  color: #444444;
+  color: #1e718f;
 }
 
 /* ErrorDev text  */
@@ -218,4 +229,27 @@ são responsáveis pelo estilo e centralização dos mesmos de forma correta */
 .mensagem-de-erro-paragrafo {
   max-width: 700px;
   margin: 0 auto;
+}
+
+.item-list {
+  margin-left: 30px;
+}
+
+.container-lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.lista-2columns {
+  display: flex;
+}
+
+.img-hvr {
+  transition: filter 0.5s ease;
+}
+
+.img-hvr:hover {
+  filter: brightness(70%);
 }

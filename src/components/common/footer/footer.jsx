@@ -3,7 +3,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <div className="footerInfo">
         <p className="titleFooter">Localização</p>
         <p className="info">Rua Doutor Teixeira Dias, nº 47</p>

@@ -17,7 +17,7 @@ const ClinicaGeral = () => {
           domicílio.
         </p>
         <p>
-          Para além das consultas de Clínica Geral, a doutora Soledade também
+          Para além das consultas de Clínica Geral, a Dra. Soledade também
           faz a consulta do viajante. Para quem não sabe, a consulta do viajante
           serve para aconselhar sobre medidas preventivas a adotar antes,
           durante e depois da viagem. Idealmente esta consulta deverá ser

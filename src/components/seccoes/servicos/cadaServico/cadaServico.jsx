@@ -14,7 +14,7 @@ function CadaServico() {
   const handleClick = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   };
   let servicos = [
@@ -46,12 +46,12 @@ function CadaServico() {
     {
       image: psicologia,
       nomeDoServico: "Psicologia",
-      path: "*",
+      path: "/psicologia",
     },
     {
       image: fisioterapia,
       nomeDoServico: "Fisioterapia",
-      path: "*",
+      path: "/fisioterapia",
     },
     {
       image: medicinaInterna,
