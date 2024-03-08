@@ -296,15 +296,6 @@ ul li :hover {
   filter: brightness(75%)
 }
 
-.sobre_img_2{
-  @media (max-width: 520px){
-    height: 90%;
-    max-height: auto;
-    width: 90%;
-    max-width: 420px;
-  }
-}
-
 .container-galeria-items {
   display: flex;
   flex-wrap: wrap;
