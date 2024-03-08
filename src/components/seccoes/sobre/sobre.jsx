@@ -47,7 +47,7 @@ function Sobre() {
                 src={sobreImg1}
                 className="sobre_img_2"
                 alt="Foto da recepção"
-                style={{maxWidth: "287px" }}
+                style={{maxWidth: "287px", width: "60%" }}
               />
               <img
                 className="sobre_img_2"
