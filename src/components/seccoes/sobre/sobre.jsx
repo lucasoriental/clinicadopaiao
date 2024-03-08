@@ -43,11 +43,16 @@ function Sobre() {
               médicos e uma sala de fisioterapia.{" "}
             </p>
             <div id="sobre_images">
-              <img src={sobreImg1} alt="Foto da recepção" />
               <img
+                src={sobreImg1}
+                className="sobre_img_2"
+                alt="Foto da recepção"
+              />
+              <img
+                className="sobre_img_2"
                 src={sobreImg2}
                 alt="Foto da Entrada"
-                style={{ marginLeft: "15px", width: "100%", maxWidth: "500px"}}
+                style={{ marginLeft: "15px" }}
               />
             </div>
           </div>
