@@ -36,7 +36,7 @@ function CadaServico() {
     {
       image: ortopedia,
       nomeDoServico: "Ortopedia",
-      path: "*",
+      path: "/ortopedia",
     },
     {
       image: otorrinolaringologia,

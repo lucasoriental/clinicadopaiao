@@ -33,6 +33,12 @@ const Fisioterapia = () => {
               className="img-hvr"
               src={fisioterapia1}
               alt="fisioterapia1_img"
+              style={{
+                height: "100%",
+                width: "100%",
+                maxHeight: "200px",
+                maxWidth: "300px",
+              }}
             />
           </div>
         </div>
@@ -94,6 +100,12 @@ const Fisioterapia = () => {
               className="img-hvr"
               src={fisioterapia2}
               alt="fisioterapia2_img"
+              style={{
+                height: "100%",
+                width: "100%",
+                maxHeight: "400px",
+                maxWidth: "400px",
+              }}
             />
           </div>
         </div>

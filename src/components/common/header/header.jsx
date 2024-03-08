@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
+import SVGCross from "../../../assets/icons/SVGCross";
+import SVGHamburguer from "../../../assets/icons/SVGhamburguer";
 import logo from "../../../assets/img/logo.webp";
 import Footer from "../footer/footer";
 
@@ -70,8 +72,15 @@ function Header() {
             </li>
           </ul>
         </nav>
+        <button className="hamburger" onClick={handleClick}>
+          <SVGHamburguer />
+        </button>
+
         <nav className="header-nav-mob">
           <ul className="header-nav-mob-links">
+            <button style={{ margin: "30px 0 30px 10%", fill:"white"}} className="hamburger" onClick={handleClick}>
+              <SVGCross />
+            </button>
             <li>
               <Link
                 className={
@@ -130,9 +139,6 @@ function Header() {
             </li>
           </ul>
         </nav>
-        <button className="hamburger" onClick={handleClick}>
-          <div className="bar"></div>
-        </button>
       </header>
 
       <Outlet />
