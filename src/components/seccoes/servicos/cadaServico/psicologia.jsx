@@ -4,7 +4,7 @@ import psicologia2 from "../../../../assets/img/servicos/cada_servico_imgs/psico
 
 const Psicologia = () => {
   return (
-    <div className="container-geral" style={{ marginBottom: "90px" }}>
+    <div className="container-geral">
       <p className="titulo-servico">Psicologia</p>
       <div className="paragrafos-geral">
         <p>
@@ -21,24 +21,24 @@ const Psicologia = () => {
               Na Clínica do Paião, o serviço de psicologia inclui:
             </label>
             <ul>
-              <li className="item-list">Terapia individual;</li>
-              <li className="item-list">Terapia em grupo;</li>
-              <li className="item-list">Terapia familiar;</li>
-              <li className="item-list">
-                Realização de workshops sobre saúde mental e bem-estar;
-              </li>
-              <li className="item-list">e Rastreio psicológico gratuito.</li>
+              <p className="item-list">• Terapia individual;</p>
+              <p className="item-list">• Terapia em grupo;</p>
+              <p className="item-list">• Terapia familiar;</p>
+              <p className="item-list">
+                • Realização de workshops sobre saúde mental e bem-estar;
+              </p>
+              <p className="item-list">• e Rastreio psicológico gratuito.</p>
             </ul>
           </div>
-          <div>
+          <div className="img_mobile">
             <img
               className="img-hvr"
               src={psicologia1}
               style={{
-                width: "299px",
-                height: "196px",
-                border: "solid #bdbdbd 5px",
-                objectFit: "cover",
+                height: "100%",
+                width: "100%",
+                maxHeight: "350px",
+                maxWidth: "300px",
               }}
             />
           </div>
@@ -60,40 +60,40 @@ const Psicologia = () => {
       </div>
       <div className="paragrafos-geral">
         <div className="container-lista">
-          <div style={{ maxWidth: "50%" }}>
+          <div>
             <label className="titulo-lista">
               Especificamente, a intervenção pode incidir em:
             </label>
             <ul>
-              <li className="item-list">Stress e Ansiedade;</li>
-              <li className="item-list">
-                Depressão ou outras perturbações de humor;
-              </li>
-              <li className="item-list">Ansiedade e Medos;</li>
-              <li className="item-list">Perturbações Alimentares;</li>
-              <li className="item-list">Problemas de comportamento;</li>
-              <li className="item-list">Hiperatividade e Défice de Atenção;</li>
-              <li className="item-list">Lidar com doenças crónicas;</li>
-              <li className="item-list">Problemas de sono;</li>
-              <li className="item-list">Perda e Luto;</li>
-              <li className="item-list">Stress pós-traumático;</li>
-              <li className="item-list">
-                Lidar com dificuldades do dia-a-dia (escolares, sociais,
+              <p className="item-list">• Stress e Ansiedade;</p>
+              <p className="item-list">
+                • Depressão ou outras perturbações de humor;
+              </p>
+              <p className="item-list">• Ansiedade e Medos;</p>
+              <p className="item-list">• Perturbações Alimentares;</p>
+              <p className="item-list">• Problemas de comportamento;</p>
+              <p className="item-list">• Hiperatividade e Défice de Atenção;</p>
+              <p className="item-list">• Lidar com doenças crónicas;</p>
+              <p className="item-list">• Problemas de sono;</p>
+              <p className="item-list">• Perda e Luto;</p>
+              <p className="item-list">• Stress pós-traumático;</p>
+              <p className="item-list">
+                • Lidar com dificuldades do dia-a-dia (escolares, sociais,
                 amorosas, laborais, familiares);
-              </li>
-              <li className="item-list">Enurese e encoprese;</li>
-              <li className="item-list">Entre outras problemáticas.</li>
+              </p>
+              <p className="item-list">• Enurese e encoprese;</p>
+              <p className="item-list">• Entre outras problemáticas.</p>
             </ul>
           </div>
-          <div>
+          <div className="img_mobile">
             <img
               className="img-hvr"
               src={psicologia2}
               style={{
-                width: "400px",
-                height: "300px",
-                border: "solid #bdbdbd 5px",
-                objectFit: "cover",
+                height: "100%",
+                width: "100%",
+                maxHeight: "400px",
+                maxWidth: "400px",
               }}
             />
           </div>
@@ -133,22 +133,18 @@ const Psicologia = () => {
           <div className="lista-2columns">
             <div>
               <ul>
-                <li className="item-list">Empatia;</li>
-                <li className="item-list">Honestidade e integridade;</li>
-                <li className="item-list">Respeito;</li>
-                <li className="item-list">Responsabilidade;</li>
-                <li className="item-list">Compromisso com os clientes;</li>
-              </ul>
-            </div>
-            <div style={{ marginLeft: "150px" }}>
-              <ul>
-                <li className="item-list">Autenticidade e Seriedade;</li>
-                <li className="item-list">
-                  Qualidade e Competência profissional;
-                </li>
-                <li className="item-list">Desenvolvimento contínuo;</li>
-                <li className="item-list">Ética;</li>
-                <li className="item-list">Confidencialidade. </li>
+                <p className="item-list">• Empatia;</p>
+                <p className="item-list">• Honestidade e integridade;</p>
+                <p className="item-list">• Respeito;</p>
+                <p className="item-list">• Responsabilidade;</p>
+                <p className="item-list">• Compromisso com os clientes;</p>
+                <p className="item-list">• Autenticidade e Seriedade;</p>
+                <p className="item-list">
+                  • Qualidade e Competência profissional;
+                </p>
+                <p className="item-list">• Desenvolvimento contínuo;</p>
+                <p className="item-list">• Ética;</p>
+                <p className="item-list">• Confidencialidade. </p>
               </ul>
             </div>
           </div>

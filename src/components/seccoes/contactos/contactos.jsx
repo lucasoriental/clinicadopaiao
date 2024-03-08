@@ -57,7 +57,7 @@ function Contactos() {
         <div id="googleMaps">
           {isLoaded ? (
             <GoogleMap
-              mapContainerStyle={{ width: "980px", height: "600px" }}
+              mapContainerStyle={{ width: "90%", height: "600px" }}
               center={{
                 lat: 40.068747323631456,
                 lng: -8.806737943192413,

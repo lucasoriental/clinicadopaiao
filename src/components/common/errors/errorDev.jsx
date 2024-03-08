@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ServicoIndisponivel from "../../../assets/img/serviçoindisponivel.png";
+import "./errorDev.scss";
 
 const errorDev = () => {
   const handleClick = () => {
@@ -10,21 +11,12 @@ const errorDev = () => {
     });
   };
   return (
-    <div
-      className="container-geral"
-      style={{ marginBottom: "90px", marginTop: "30px" }}
-    >
+    <div className="container-errorDev">
       <div style={{ textAlign: "center" }}>
         <img
           src={ServicoIndisponivel}
           className="alert_sign"
           alt="Alert Sign"
-          style={{
-            display: "inline-block",
-            height: "100%",
-            width: "100%",
-            marginBottom: "25px",
-          }}
         />
       </div>
       <div className="mensagem-de-erro-paragrafo">
@@ -46,15 +38,7 @@ const errorDev = () => {
           Adicionalmente, convidamo-lo(a) a explorar os outros serviços que
           disponibilizamos. Para uma visão global de todos os serviços
           disponíveis,{" "}
-          <Link
-            to="/servicos"
-            onClick={handleClick}
-            style={{
-              textDecoration: "underline",
-              color: "blue",
-              fontWeight: "bold",
-            }}
-          >
+          <Link to="/servicos" onClick={handleClick} className="link-text">
             clique aqui
           </Link>
           .
