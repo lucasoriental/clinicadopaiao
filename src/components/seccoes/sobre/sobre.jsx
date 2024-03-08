@@ -47,7 +47,7 @@ function Sobre() {
               <img
                 src={sobreImg2}
                 alt="Foto da Entrada"
-                style={{ marginLeft: "15px", width: "100%"}}
+                style={{ marginLeft: "15px", width: "100%", maxWidth: "500px"}}
               />
             </div>
           </div>
