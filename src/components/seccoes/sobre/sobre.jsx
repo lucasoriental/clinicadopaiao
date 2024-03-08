@@ -36,7 +36,7 @@ function Sobre() {
           </p>
         </div>
         <div>
-          <p id="sobre_parte2">As nossas instalações</p>
+          <p id="titulo-sobre-parte-2">As nossas instalações</p>
           <div className="paragrafos-geral">
             <p>
               A Clínica do Paião é composta por uma recepção, dois gabinetes

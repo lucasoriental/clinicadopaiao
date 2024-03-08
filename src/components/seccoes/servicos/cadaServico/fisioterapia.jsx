@@ -4,7 +4,7 @@ import fisioterapia2 from "../../../../assets/img/servicos/cada_servico_imgs/fis
 
 const Fisioterapia = () => {
   return (
-    <div className="container-geral" style={{ marginBottom: "90px" }}>
+    <div className="container-geral">
       <p className="titulo-servico">Fisioterapia e Pilates Clínico</p>
       <div className="paragrafos-geral" style={{ margin: "0" }}>
         <p>
@@ -23,22 +23,16 @@ const Fisioterapia = () => {
               Na Clínica do Paião, o serviço de fisioterapia inclui:
             </label>
             <ul>
-              <li className="item-list">Fisioterapia;</li>
-              <li className="item-list">Pilates clínico; </li>
-              <li className="item-list">e Treino funcional.</li>
+              <li className="item-list">• Fisioterapia;</li>
+              <li className="item-list">• Pilates clínico; </li>
+              <li className="item-list">• e Treino funcional.</li>
             </ul>
           </div>
-          <div>
+          <div className="img_mobile">
             <img
               className="img-hvr"
               src={fisioterapia1}
               alt="fisioterapia1_img"
-              style={{
-                width: "250px",
-                height: "150px",
-                border: "solid #bdbdbd 5px",
-                objectFit: "cover",
-              }}
             />
           </div>
         </div>
@@ -66,44 +60,40 @@ const Fisioterapia = () => {
       </div>
       <div className="paragrafos-geral">
         <div className="container-lista">
-          <div style={{ maxWidth: "60%" }}>
+          <div>
             <label className="titulo-lista">
               Especificamente, após a avaliação inicial a intervenção pode
               incidir sobre:{" "}
             </label>
             <ul>
-              <li className="item-list">Lombalgias (Dor lombar)</li>
-              <li className="item-list">Cervicalgias (Dor cervical/pescoço)</li>
-              <li className="item-list">Lombociatalgias (Dor ciática)</li>
-              <li className="item-list">Omalgias (Dor ombro)</li>
-              <li className="item-list">Gonalgia (Dor joelho)</li>
-              <li className="item-list">Tendinopatias (Tendinites)</li>
-              <li className="item-list">Roturas musculares</li>
+              <li className="item-list">• Lombalgias (Dor lombar)</li>
               <li className="item-list">
-                Contusão e entorses (Tornozelo, joelho)
+                • Cervicalgias (Dor cervical/pescoço)
+              </li>
+              <li className="item-list">• Lombociatalgias (Dor ciática)</li>
+              <li className="item-list">• Omalgias (Dor ombro)</li>
+              <li className="item-list">• Gonalgia (Dor joelho)</li>
+              <li className="item-list">• Tendinopatias (Tendinites)</li>
+              <li className="item-list">• Roturas musculares</li>
+              <li className="item-list">
+                • Contusão e entorses (Tornozelo, joelho)
               </li>
               <li className="item-list">
-                Reabilitação pós-cirúrgica (Prótese do joelho, anca, ombro)
+                • Reabilitação pós-cirúrgica (Prótese do joelho, anca, ombro)
               </li>
               <li className="item-list">
-                Patologias osteoarticulares (Artroses, artrite, escolioses,
+                • Patologias osteoarticulares (Artroses, artrite, escolioses,
                 esporão calcâneo)
               </li>
-              <li className="item-list">Prevenção de quedas</li>
-              <li className="item-list">Entre outras problemáticas. </li>
+              <li className="item-list">• Prevenção de quedas</li>
+              <li className="item-list">• Entre outras problemáticas. </li>
             </ul>
           </div>
-          <div>
+          <div className="img_mobile">
             <img
               className="img-hvr"
               src={fisioterapia2}
               alt="fisioterapia2_img"
-              style={{
-                width: "327px",
-                height: "261px",
-                border: "solid #bdbdbd 5px",
-                objectFit: "cover",
-              }}
             />
           </div>
         </div>

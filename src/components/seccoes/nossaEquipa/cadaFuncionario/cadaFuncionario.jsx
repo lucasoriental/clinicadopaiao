@@ -19,6 +19,12 @@ function CadaFuncionario() {
       id: 2,
     },
     {
+      fotografia: rutematos,
+      nome: "Dra. Rute Matos",
+      especializacao: "• Psicologia",
+      id: 6,
+    },
+    {
       fotografia: fotografia,
       nome: "Dr. João Soares",
       especializacao: "• Dermatologia",
@@ -35,12 +41,6 @@ function CadaFuncionario() {
       nome: "Dr. Afonso Castro",
       especializacao: "• Otorrinolaringologia",
       id: 5,
-    },
-    {
-      fotografia: rutematos,
-      nome: "Dra. Rute Matos",
-      especializacao: "• Psicologia",
-      id: 6,
     },
     {
       fotografia: barbaragomes,

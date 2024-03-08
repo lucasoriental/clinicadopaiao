@@ -2,7 +2,7 @@ import React from "react";
 
 const ClinicaGeral = () => {
   return (
-    <div className="container-geral" style={{ marginBottom: "90px" }}>
+    <div className="container-geral">
       <div className="titulo-servico">Clínica Geral</div>
       <div className="paragrafos-geral">
         <p>
@@ -17,15 +17,15 @@ const ClinicaGeral = () => {
           domicílio.
         </p>
         <p>
-          Para além das consultas de Clínica Geral, a Dra. Soledade também
-          faz a consulta do viajante. Para quem não sabe, a consulta do viajante
-          serve para aconselhar sobre medidas preventivas a adotar antes,
-          durante e depois da viagem. Idealmente esta consulta deverá ser
-          marcada 8 a 4 semanas antes da viagem, mas poderá marcar assim que lhe
-          for possível. Para além da vacinação, as medidas incluem a profilaxia
-          da malária, se for caso disso, avaliação das condições de saúde,
-          informação sobre higiene individual, cuidados a ter com água e
-          alimentos e aconselhamento da farmácia que deve levar consigo.
+          Para além das consultas de Clínica Geral, a Dra. Soledade também faz a
+          consulta do viajante. Para quem não sabe, a consulta do viajante serve
+          para aconselhar sobre medidas preventivas a adotar antes, durante e
+          depois da viagem. Idealmente esta consulta deverá ser marcada 8 a 4
+          semanas antes da viagem, mas poderá marcar assim que lhe for possível.
+          Para além da vacinação, as medidas incluem a profilaxia da malária, se
+          for caso disso, avaliação das condições de saúde, informação sobre
+          higiene individual, cuidados a ter com água e alimentos e
+          aconselhamento da farmácia que deve levar consigo.
         </p>
       </div>
     </div>
