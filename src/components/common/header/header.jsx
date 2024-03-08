@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import SVGCross from "../../../assets/icons/SVGCross";
 import SVGHamburguer from "../../../assets/icons/SVGhamburguer";
@@ -7,6 +7,7 @@ import Footer from "../footer/footer";
 
 function Header() {
   const location = useLocation();
+  const [isActive, setIsActive] = useState(false);
 
   const handleClick = () => {
     const btnMenu = document.querySelector(".hamburger");
@@ -14,6 +15,11 @@ function Header() {
 
     btnMenu.classList.toggle("is-active");
     mobile_menu.classList.toggle("is-active");
+    setIsActive(!isActive);
+  };
+
+  const handleLinkClick = () => {
+    setIsActive(false);
   };
 
   return (
@@ -76,7 +82,7 @@ function Header() {
           <SVGHamburguer />
         </button>
 
-        <nav className="header-nav-mob">
+        <nav className={`header-nav-mob ${isActive ? "is-active" : ""}`}>
           <ul className="header-nav-mob-links">
             <button style={{ margin: "30px 0 30px 10%", fill:"white"}} className="hamburger" onClick={handleClick}>
               <SVGCross />
@@ -87,6 +93,7 @@ function Header() {
                   location.pathname === "/" ? "mob-ativo" : "mob-inativo"
                 }
                 to="/"
+                onClick={handleLinkClick}
               >
                 Clínica do Paião
               </Link>
@@ -97,6 +104,7 @@ function Header() {
                   location.pathname === "/sobre" ? "mob-ativo" : "mob-inativo"
                 }
                 to="/sobre"
+                onClick={handleLinkClick}
               >
                 Sobre
               </Link>
@@ -109,6 +117,7 @@ function Header() {
                     : "mob-inativo"
                 }
                 to="/servicos"
+                onClick={handleLinkClick}
               >
                 Serviços
               </Link>
@@ -121,6 +130,7 @@ function Header() {
                     : "mob-inativo"
                 }
                 to="/nossaEquipa"
+                onClick={handleLinkClick}
               >
                 Nossa Equipa
               </Link>
@@ -133,6 +143,7 @@ function Header() {
                     : "mob-inativo"
                 }
                 to="/contacto"
+                onClick={handleLinkClick}
               >
                 Contactos
               </Link>

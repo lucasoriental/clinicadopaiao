@@ -13,7 +13,7 @@ function Footer() {
         <p className="info">Segunda - Sábado</p>
         <p className="info">8h00 - 20h00</p>
       </div>
-      <div className="footerInfo" style={{maxWidth: "130px"}}>
+      <div className="footerInfo-contactos">
         <p className="titleFooter">Contactos</p>
         <p className="info">233 940 116</p>
         <p className="info">clinicadopaiao@outlook.pt</p>

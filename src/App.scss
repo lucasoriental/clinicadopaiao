@@ -145,6 +145,12 @@ ul li :hover {
   }
 }
 
+.footerInfo-contactos{
+  @media(max-width: 420px){
+    max-width: 130px;
+  }
+}
+
 .titleFooter {
   font-weight: bold;
   color: white;

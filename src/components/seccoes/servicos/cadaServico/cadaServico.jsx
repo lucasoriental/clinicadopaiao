@@ -9,6 +9,8 @@ import ortopedia from "../../../../assets/img/servicos/ortopedia.webp";
 import otorrinolaringologia from "../../../../assets/img/servicos/otorrinolaringologia.webp";
 import psicologia from "../../../../assets/img/servicos/psicologia.webp";
 import reabilitacaoAuditiva from "../../../../assets/img/servicos/reabilitacaoAuditiva.webp";
+import podologia from "../../../../assets/img/servicos/podologia.webp"
+import acupuntura from "../../../../assets/img/servicos/acupuntura.webp"
 
 function CadaServico() {
   const handleClick = () => {
@@ -61,6 +63,16 @@ function CadaServico() {
     {
       image: reabilitacaoAuditiva,
       nomeDoServico: "Reabilitação Auditiva",
+      path: "*",
+    },
+    {
+      image: podologia,
+      nomeDoServico: "Podologia",
+      path: "*",
+    },
+    {
+      image: acupuntura,
+      nomeDoServico: "Acupuntura",
       path: "*",
     },
   ];

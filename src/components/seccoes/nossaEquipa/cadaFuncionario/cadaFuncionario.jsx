@@ -22,25 +22,25 @@ function CadaFuncionario() {
       fotografia: rutematos,
       nome: "Dra. Rute Matos",
       especializacao: "• Psicologia",
-      id: 6,
+      id: 3,
     },
     {
       fotografia: fotografia,
       nome: "Dr. João Soares",
       especializacao: "• Dermatologia",
-      id: 3,
+      id: 4,
     },
     {
       fotografia: fotografia,
       nome: "Dr. André Carvalho",
       especializacao: "• Ortopedia",
-      id: 4,
+      id: 5,
     },
     {
       fotografia: fotografia,
       nome: "Dr. Afonso Castro",
       especializacao: "• Otorrinolaringologia",
-      id: 5,
+      id: 6,
     },
     {
       fotografia: barbaragomes,
@@ -65,6 +65,18 @@ function CadaFuncionario() {
       nome: "Dr. Nuno Jesus",
       especializacao: "• Reabilitação Auditiva",
       id: 10,
+    },
+    {
+      fotografia: fotografia,
+      nome: "Dra. Joana Neto",
+      especializacao: "• Podologia",
+      id: 11,
+    },
+    {
+      fotografia: fotografia,
+      nome: "Dr. Hugo Barbosa",
+      especializacao: "• Acupuntura",
+      id: 12,
     },
   ];
   return (
