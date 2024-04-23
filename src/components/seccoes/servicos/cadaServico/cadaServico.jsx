@@ -8,6 +8,7 @@ import medicinaInterna from "../../../../assets/img/servicos/medicinaInterna.web
 import ortopedia from "../../../../assets/img/servicos/ortopedia.webp";
 import otorrinolaringologia from "../../../../assets/img/servicos/otorrinolaringologia.webp";
 import psicologia from "../../../../assets/img/servicos/psicologia.webp";
+import psiquiatria from "../../../../assets/img/servicos/psiquiatria.webp";
 import reabilitacaoAuditiva from "../../../../assets/img/servicos/reabilitacaoAuditiva.webp";
 import podologia from "../../../../assets/img/servicos/podologia.webp"
 import acupuntura from "../../../../assets/img/servicos/acupuntura.webp"
@@ -51,6 +52,11 @@ function CadaServico() {
       path: "/psicologia",
     },
     {
+      image: psiquiatria,
+      nomeDoServico: "Psiquiatria",
+      path: "*",
+    },
+    {
       image: fisioterapia,
       nomeDoServico: "Fisioterapia",
       path: "/fisioterapia",
@@ -78,9 +84,9 @@ function CadaServico() {
   ];
   return (
     <div className="container-galeria-items">
-      {servicos.map((servico) => {
+      {servicos.map((servico, index) => {
         return (
-          <div key={servico.nomeDoServico} className="cada-item-galeria">
+          <div key={index} className="cada-item-galeria">
             <Link to={servico.path} onClick={handleClick}>
               <div>
                 <img
