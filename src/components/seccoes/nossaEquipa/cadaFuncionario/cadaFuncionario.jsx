@@ -10,82 +10,75 @@ function CadaFuncionario() {
       fotografia: fotografia,
       nome: "Dra. Soledade Ferreira",
       especializacao: "• Clínica Geral",
-      id: 1,
     },
     {
       fotografia: fotografia,
       nome: "Dra. Joana Guardado",
       especializacao: "• Cardiologia",
-      id: 2,
     },
-    {
-      fotografia: rutematos,
-      nome: "Dra. Rute Matos",
-      especializacao: "• Psicologia",
-      id: 3,
-    },
-    {
+    /* {
       fotografia: fotografia,
-      nome: "Dr. João Soares",
+      nome: "?",
       especializacao: "• Dermatologia",
-      id: 4,
-    },
+    }, */
     {
       fotografia: fotografia,
       nome: "Dr. André Carvalho",
       especializacao: "• Ortopedia",
-      id: 5,
     },
     {
       fotografia: fotografia,
       nome: "Dr. Afonso Castro",
       especializacao: "• Otorrinolaringologia",
-      id: 6,
+    },
+    {
+      fotografia: rutematos,
+      nome: "Dra. Rute Matos",
+      especializacao: "• Psicologia",
+    },
+    {
+      fotografia: fotografia,
+      nome: "Dra. Sandra Silva",
+      especializacao: "• Psiquiatria",
     },
     {
       fotografia: barbaragomes,
       nome: "Dra. Bárbara Gomes",
       especializacao: "• Fisioterapia",
-      id: 7,
     },
     {
       fotografia: adrianasousa,
       nome: "Dra. Adriana Sousa",
       especializacao: "• Fisioterapia",
-      id: 8,
     },
     {
       fotografia: fotografia,
       nome: "Dr. Sergey Belykh",
       especializacao: "• Medicina Interna",
-      id: 9,
     },
     {
       fotografia: fotografia,
       nome: "Dr. Nuno Jesus",
       especializacao: "• Reabilitação Auditiva",
-      id: 10,
     },
     {
       fotografia: fotografia,
       nome: "Dra. Joana Neto",
       especializacao: "• Podologia",
-      id: 11,
     },
     {
       fotografia: fotografia,
       nome: "Dr. Hugo Barbosa",
       especializacao: "• Acupuntura",
-      id: 12,
     },
   ];
   return (
     <div className="container-galeria-items">
-      {funcionarios.map((funcionario) => {
+      {funcionarios.map((funcionario, index) => {
         return (
           <div
-            key={funcionario.id}
-            id={funcionario.id}
+            key={index}
+            id={index}
             className="cada-item-galeria"
           >
             <div>
