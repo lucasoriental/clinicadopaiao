@@ -12,6 +12,7 @@ import Ortopedia from "./components/seccoes/servicos/cadaServico/ortopedia.jsx";
 import Psicologia from "./components/seccoes/servicos/cadaServico/psicologia.jsx";
 import Servicos from "./components/seccoes/servicos/servicos.jsx";
 import Sobre from "./components/seccoes/sobre/sobre.jsx";
+import Acupuntura from "./components/seccoes/servicos/cadaServico/acupuntura.jsx";
 function App() {
   return (
     <BrowserRouter>
@@ -27,6 +28,7 @@ function App() {
           <Route path="*" element={<ErrorDev />} />
           <Route path="clinicaGeral" element={<ClinicaGeral />} />
           <Route path="psicologia" element={<Psicologia />} />
+          <Route path="acupuntura" element={<Acupuntura />} />
           <Route path="fisioterapia" element={<Fisioterapia />} />
           <Route path="ortopedia" element={<Ortopedia />} />
         </Route>

@@ -79,7 +79,7 @@ function CadaServico() {
     {
       image: acupuntura,
       nomeDoServico: "Acupuntura",
-      path: "*",
+      path: "/acupuntura",
     },
   ];
   return (
