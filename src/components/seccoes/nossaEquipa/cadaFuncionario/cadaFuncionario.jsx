@@ -3,6 +3,7 @@ import adrianasousa from "../../../../assets/img/equipa/adriana_sousa.jpg";
 import barbaragomes from "../../../../assets/img/equipa/barbara_gomes.jpg";
 import fotografia from "../../../../assets/img/equipa/noPic.webp";
 import rutematos from "../../../../assets/img/equipa/rute_matos.jpg";
+import hugobarbosa from "../../../../assets/img/equipa/hugo_barbosa.jpg"
 
 function CadaFuncionario() {
   let funcionarios = [
@@ -67,7 +68,7 @@ function CadaFuncionario() {
       especializacao: "• Podologia",
     },
     {
-      fotografia: fotografia,
+      fotografia: hugobarbosa,
       nome: "Dr. Hugo Barbosa",
       especializacao: "• Acupuntura",
     },
