@@ -26,7 +26,7 @@ function Sobre() {
           </p>
           <p>
             • <strong>Variedade</strong> | Congregar num só espaço o maior
-            número de serviços possível possível;
+            número de serviços possível;
           </p>
           <p>
             • <strong>Valor</strong> | A melhor qualidade ao melhor preço;
@@ -36,26 +36,19 @@ function Sobre() {
           </p>
         </div>
         <div>
-          <p id="titulo-sobre-parte-2">As nossas instalações</p>
-          <div className="paragrafos-geral">
-            <p>
-              A Clínica do Paião é composta por uma recepção, dois gabinetes
-              médicos e uma sala de fisioterapia.{" "}
-            </p>
-            <div id="sobre_images">
-              <img
-                src={sobreImg1}
-                className="sobre_img_2"
-                alt="Foto da recepção"
-                style={{maxWidth: "287px", width: "60%" }}
-              />
-              <img
-                className="sobre_img_2"
-                src={sobreImg2}
-                alt="Foto da Entrada"
-                style={{ marginLeft: "15px", width: "90%", maxWidth: "500px" }}
-              />
-            </div>
+          <div id="sobre_images">
+            <img
+              src={sobreImg1}
+              className="sobre_img_2"
+              alt="Foto da recepção"
+              style={{ maxWidth: "287px", width: "60%" }}
+            />
+            <img
+              className="sobre_img_2"
+              src={sobreImg2}
+              alt="Foto da Entrada"
+              style={{ marginLeft: "15px", width: "90%", maxWidth: "500px" }}
+            />
           </div>
         </div>
       </div>
